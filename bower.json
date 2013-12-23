@@ -1,0 +1,11 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "dependencies": {
+    "requirejs": "~2.1.5",
+    "components-bootstrap": "~3.0.0"
+  },
+  "devDependencies": {
+    "jasmine-jquery": "*"
+  }
+}
