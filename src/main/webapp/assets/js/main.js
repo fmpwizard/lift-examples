@@ -2,7 +2,8 @@
 require(
   [
     'jquery',
-    'bootstrap'
+    'bootstrap',
+    'json2'
   ]);
 
 var diego = function diego (argument) {

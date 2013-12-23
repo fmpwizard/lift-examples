@@ -91,6 +91,7 @@ module.exports = function(grunt) {
         options: {
           paths: {
             jquery: 'bower_components/jquery/jquery',
+            json2: 'bower_components/json2/json',
             bootstrap: '<%= dirs.bootstrap %>/js/bootstrap',
             main: '<%= dirs.js %>/main'
           },
