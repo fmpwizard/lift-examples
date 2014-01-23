@@ -28,9 +28,6 @@ module.exports = function(grunt) {
       cssmin: {
         files: ['<%= appFiles.css %>'],
         tasks: ['cssmin']
-      },
-      copyFonts: {
-        tasks: 'copy'
       }
     },
     jshint: {
