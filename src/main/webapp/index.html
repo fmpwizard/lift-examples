@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-    <title>Home</title>
-  </head>
-  <body data-lift-content-id="main">
-    <div id="main" data-lift="surround?with=default;at=content">
-
-      <h2>Welcome to your project!</h2>
-      <p>
-	<span data-lift="helloWorld.howdy">
-	  Welcome to your Lift app at <span id="time">Time goes here</span>
-	</span>
-      </p>
-      
-    </div>
-  </body>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+  <title>Home</title>
+</head>
+<body data-lift-content-id="main">
+  <div id="main" data-lift="surround?with=default;at=content">
+    <h2>Welcome to your project!</h2>
+    <form data-lift="form.ajax">
+      <div data-lift="HelloWorld">
+        Name: <input type="text" name="name" placeholder="What's your name?"> <br>
+        Are you old? <input type="checkbox" name="old"> <br>
+        Age: <input name="age"> <br>
+            Sex:<br> <span class="options">
+      <input type="radio">Option 1</input>
+              <input type="radio">Option 2</input>
+    </span>
+        <input type="submit">
+      </div>
+    </form>
+    <br>
+    <hr>
+    <div id="name"></div>
+    <div id="old"></div>
+    <div id="sex"></div>
+    <div id="age"></div>
+  </div>
+</body>
 </html>
-
